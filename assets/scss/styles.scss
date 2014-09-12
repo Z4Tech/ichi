@@ -712,10 +712,6 @@ a {
         font-size: 0.8rem;
         margin-top: 1rem;
         text-align: center;
-        @media screen and (min-width:64.063em) {
-            width: 33%;
-            float: left;
-        }
         a {
             color: $color;
             &:hover {

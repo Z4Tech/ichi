@@ -900,13 +900,7 @@ a:hover {
   margin-top: 1rem;
   text-align: center;
 }
-@media screen and (min-width: 64.063em) {
-  /* line 711, ../scss/styles.scss */
-  .site-footer section {
-    width: 33%;
-    float: left;
-  }
-}
+
 /* line 719, ../scss/styles.scss */
 .site-footer section a {
   color: #4a89dc;

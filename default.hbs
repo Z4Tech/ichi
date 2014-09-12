@@ -43,20 +43,22 @@
     <li class="name">
       
     </li>
-    <li class="home"><a class="fi-home" href="{{@blog.url}}"></a></li>
-    <li class="toggle-topbar"><a href="#" id="trigger-overlay" class="fi-list"></a></li>
+    <li class="home"><a class="fi-home" href="http://www.zhangchenguang1994.net"></a></li>
+    <!--    <li class="toggle-topbar"><a href="#" id="trigger-overlay" class="fi-list"></a></li> -->
   </ul>
 
+<!--
 <div class="overlay overlay-scale">
     <button type="button" class="overlay-close">Close</button>
     <nav>
         <ul>
-            <li><a href="{{@blog.url}}">Home</a></li>
-            <li><a href="{{@blog.url}}/about">About</a></li>
-            <li><a href="{{@blog.url}}/contact">Contact</a></li>
+            <li><a href="http://www.zhangchenguang1994.net">Home</a></li>
+            <li><a href="{{@blog.url}}">Blog</a></li>
+            <li><a href="{{@blog.url}}">Contact</a></li>
         </ul>
     </nav>
 </div>
+-->
 
 </nav>
 
@@ -68,9 +70,9 @@
     <div class="vertical">
         <div class="site-head-content inner">
             <ul class="side-nav blog-menu show-for-large-up">
-                <li><a class="fi-home" href="{{@blog.url}}"></a></li>
-                <li><a class="fi-torso" href="{{@blog.url}}/about"></a></li>
-                <li><a class="fi-mail" href="{{@blog.url}}/contact"></a></li>
+                <li><a class="fi-home" href="http://www.zhangchenguang1994.net"></a></li>
+                <li><a class="fi-torso" href="{{@blog.url}}"></a></li>
+                <li><a class="fi-rss" href="{{@blog.url}}/rss"></a></li> 
             </ul>
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img alt="{{@blog.title}}" src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
@@ -78,22 +80,23 @@
             <p class="blog-description">{{@blog.description}}</p>
             <div class="blog-network">
 <!--                 <a href="#" class="fi-social-pinterest"></a>
-                <a href="#" class="fi-social-linkedin"></a>
                 <a href="#" class="fi-social-behance"></a>
                 <a href="#" class="fi-social-deviant-art"></a>
                 <a href="#" class="fi-social-dribbble"></a>
                 <a href="#" class="fi-social-flickr"></a>
-                <a href="#" class="fi-social-github"></a>
                 <a href="#" class="fi-social-skype"></a>
                 <a href="#" class="fi-social-snapchat"></a>
                 <a href="#" class="fi-social-steam"></a>
                 <a href="#" class="fi-social-xbox"></a>
-                <a href="#" class="fi-social-reddit"></a> -->
-                <a href="#" class="fi-rss"></a>
-                <a href="#" class="fi-social-google-plus"></a>
+                <a href="#" class="fi-social-reddit"></a> 
+                <a href="{{@blog.url}}/rss" class="fi-rss"></a>
                 <a href="#" class="fi-social-youtube"></a>
-                <a href="#" class="fi-social-twitter"></a>
-                <a href="#" class="fi-social-facebook"></a>
+-->           
+                <a href="https://github.com/Z4Tech" class="fi-social-github"></a>
+                <a href="https://www.linkedin.com/in/zhangchenguang" class="fi-social-linkedin"></a>
+                <a href="https://plus.google.com/u/0/108142013154997149319" class="fi-social-google-plus"></a>
+                <a href="https://twitter.com/zcgPKU" class="fi-social-twitter"></a>
+                <a href="https://www.facebook.com/chenguang.zhang.37" class="fi-social-facebook"></a>
             </div>
         </div>
     </div>
@@ -124,7 +127,16 @@
     <script type="text/javascript" src="{{asset "js/overlay/classie.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/overlay/demo1.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/vendor/smoothscroll.js"}}"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-54761054-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
     <script>
       $(document).foundation();
     </script>
